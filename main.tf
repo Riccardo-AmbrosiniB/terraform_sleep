@@ -1,5 +1,5 @@
 resource "null_resource" "sleep" {
   provisioner "local-exec" {
-    command = "timeout /t 120"
+    command = "timeout 120"
   }
 }
