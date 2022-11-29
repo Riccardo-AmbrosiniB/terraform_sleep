@@ -1,5 +1,5 @@
 resource "null_resource" "sleep" {
   provisioner "local-exec" {
-    command = "sleep 30"
+    command = "sleep 40"
   }
 }
